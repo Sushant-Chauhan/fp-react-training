@@ -1,0 +1,8 @@
+.panel-disp {
+  border: 1px solid black;
+  color: black;
+}
+
+.active {
+  color: red;
+}

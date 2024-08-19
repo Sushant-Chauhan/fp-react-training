@@ -1,0 +1,16 @@
+.button-disp {
+  margin-right: 20px;
+}
+
+.panel-disp {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.image-disp {
+  width: 30%;
+}
+
+.active {
+  background-color: lightgoldenrodyellow;
+}

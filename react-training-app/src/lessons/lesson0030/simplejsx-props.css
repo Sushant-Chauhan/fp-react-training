@@ -1,0 +1,25 @@
+.page-hdr {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-evenly;
+}
+
+.page-footer {
+  background-color: beige;
+  height: 50px;
+}
+
+.footer-list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+}
+
+.li-item {
+  width: 100px;
+}
+
+.body-items {
+  width: 50%;
+  margin: auto;
+}

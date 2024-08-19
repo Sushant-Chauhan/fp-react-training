@@ -1,0 +1,102 @@
+.main {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 60% 40%;
+  height: 700px;
+}
+.main-form {
+  margin-left: 1rem;
+  height: 100%;
+  width: 100;
+}
+.main-body {
+  background-image: url("https://images.pexels.com/photos/955081/pexels-photo-955081.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=700&w=540");
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+}
+.main-body ::after {
+  background: rgba(0, 0, 0, 0.2);
+}
+input {
+  border: none;
+  border-bottom: 0.1rem solid #e6e6e6;
+  width: 90%;
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  padding: 0.7rem 0;
+  outline: none;
+}
+label {
+  color: grey;
+  font-size: 1.1rem;
+}
+::placeholder {
+  color: #cccccc;
+  font-size: 1rem;
+  font-family: "Noto Sans", sans-serif;
+}
+textarea {
+  border: none;
+  border-bottom: 0.1rem solid #e6e6e6;
+  width: 90%;
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  font-size: 1.4rem;
+  resize: none;
+  outline: none;
+  font-family: "Noto Sans", sans-serif;
+}
+#submit {
+  height: 3.2rem;
+  width: 14rem;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  background: linear-gradient(to right, #cc3399, #ff5050);
+  margin-left: 25%;
+  color: white;
+  margin-top: 1.2rem;
+}
+
+.form-element {
+  margin-top: 0.5rem;
+}
+.contact {
+  color: white;
+  background: #00cc00;
+  width: 14rem;
+  padding-left: 1rem;
+  border-radius: 2rem;
+  margin-left: 33%;
+  margin-top: 25%;
+  border: none;
+  outline: none;
+  font-size: 1.5em;
+}
+@media only screen and (max-width: 700px) {
+  .main {
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 100%;
+    height: 700px;
+  }
+  .main-body {
+    background-image: url("https://images.pexels.com/photos/955081/pexels-photo-955081.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=400&w=400");
+    background-repeat: no-repeat;
+    height: 400px;
+  }
+  .contact {
+    color: white;
+    background: #00cc00;
+    width: 14rem;
+    padding-left: 1rem;
+    border-radius: 2rem;
+    margin-left: 8rem;
+    margin-top: 10rem;
+    border: none;
+    outline: none;
+    font-size: 1.4rem;
+  }
+}

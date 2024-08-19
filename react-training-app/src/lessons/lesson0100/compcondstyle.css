@@ -1,0 +1,13 @@
+.button-disp {
+  margin-right: 20px;
+}
+
+.panel-disp {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+
+.image-disp {
+  height: 100px;
+}

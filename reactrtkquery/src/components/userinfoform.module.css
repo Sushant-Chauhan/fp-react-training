@@ -1,0 +1,30 @@
+.FormInput {
+  display: flex;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+}
+
+.FormInput > label {
+  width: 40%;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.FormInput > select {
+  padding: 0px;
+}
+
+.FormInput > input {
+  width: 60%;
+  padding: 10px;
+}
+
+.listData {
+  display: flex;
+}
+
+.listData > p {
+  width: 15%;
+}

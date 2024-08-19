@@ -1,0 +1,12 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+p {
+  text-align: left;
+}

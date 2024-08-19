@@ -1,0 +1,19 @@
+.codestyle {
+  width: 50%;
+  border: 1px solid red;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.codestyle > header {
+  font-weight: 600;
+  font-style: italic;
+  text-align: center;
+}
+
+.codestyle > pre {
+  word-spacing: 2pt;
+  text-align: left;
+  background-color: rgb(220, 245, 226);
+  padding: 20px;
+}

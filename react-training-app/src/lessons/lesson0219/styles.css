@@ -1,0 +1,51 @@
+:root {
+  --trans-dark: rgba(0, 0, 0, 0.3);
+}
+
+body {
+  padding: 1em;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  display: grid;
+  grid-gap: 1em;
+}
+.counter-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1em;
+}
+
+.counter {
+  padding: 1em;
+  border: 1px solid var(--trans-dark);
+}
+
+.form-container {
+  padding: 1em;
+  border: 1px solid var(--trans-dark);
+}
+
+.form-details {
+  display: grid;
+  grid-gap: 1em;
+}
+
+.user-info {
+  border: 1px solid var(--trans-dark);
+}
+
+.input-form {
+  display: grid;
+  grid-gap: 1em;
+}
+
+.input-form > div {
+  display: flex;
+}
+
+.input-form > div > label + input {
+  margin-left: 1em;
+}

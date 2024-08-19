@@ -1,0 +1,199 @@
+.Header {
+  height: 66px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+}
+
+.menulist {
+  list-style-type: none;
+  float: right;
+  margin-right: 24px;
+  font-family: "Roboto Condensed", "Asap Condensed", "neue-haas-unica",
+    sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.menulist > li {
+  display: inline;
+  margin-left: 10px;
+}
+
+.menulist > li:hover {
+  color: gray;
+}
+
+.flex {
+  display: flex;
+}
+
+.ContentArea {
+  max-width: 1160px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site_logo {
+  background-image: url(./TGN_Logo-01.svg);
+  background-repeat: no-repeat;
+  height: 29px;
+  width: 180px;
+}
+
+.TGN_site_Tbobg {
+  background-image: url(./TGN_TBOBG-01.svg);
+  background-repeat: no-repeat;
+  height: 21px;
+  width: 78px;
+  margin-top: 8px;
+  margin-left: 10px;
+  color: white;
+  font-family: "Roboto Condensed", "Asap Condensed", "neue-haas-unica",
+    sans-serif;
+  font-weight: 600;
+}
+
+.PageWidth {
+  width: 1096px;
+}
+
+.heromodule_label {
+  color: #000000;
+  font-family: "Roboto Condensed", "Asap Condensed", "neue-haas-unica",
+    sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0px;
+  line-height: 21px;
+  text-transform: uppercase;
+  margin-bottom: 0px;
+  border-bottom: 3px solid black;
+  display: inline-block;
+}
+
+.heromodule_title {
+  color: #000000;
+  font-family: source-serif-pro, "Source Serif Pro", "Lyon Display Web",
+    "LyonDisplay-Medium", serif;
+  font-size: 59px;
+  line-height: 67px;
+  letter-spacing: -0.1px;
+  font-weight: 900;
+  margin-bottom: 18px;
+  margin-top: 18px;
+}
+
+.heromodule_description {
+  color: #000000;
+  font-family: "HelveticaNeueW01-55Roma", "neue-haas-unica", sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  margin-bottom: 18px;
+}
+
+.heromodule_herobyline {
+  font-family: "HelveticaNeueW01-45Ligh", "neue-haas-unica", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 0px;
+  display: inline-block;
+}
+
+.heromodule_herobylinebold {
+  font-family: "HelveticaNeueW01-75Bold", "HelveticaNeue Bold",
+    "Helvetica LT Std Bold", Helvetica, "neue-haas-unica", sans-serif;
+}
+
+.ArticleItems {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.margins {
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+.ArticleItem {
+  width: 49%;
+  min-width: 250px;
+}
+
+.ArticleItem1 {
+  width: 48%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.ArticleImage {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  display: block;
+}
+
+.ArticleItemTitle {
+  color: #000000;
+  font-family: source-serif-pro, "Source Serif Pro", "LyonDisplay-Medium", serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  margin-top: 14px;
+  margin-bottom: 7px;
+}
+
+.ArticleItemdescription {
+  color: #404040;
+  font-family: "HelveticaNeueW01-45Ligh", "neue-haas-unica", sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  overflow-wrap: break-word;
+  max-height: 107px;
+  overflow: hidden;
+}
+
+.heromodule_hero {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  display: flex;
+}
+
+.heromodule_heroleft {
+  width: 48.9%;
+  display: inline-block;
+}
+
+.heromodule_heroright {
+  display: inline-block;
+  width: 47.5%;
+  margin-left: 2.5%;
+  vertical-align: top;
+}
+
+.buttongroup {
+  margin-top: -5%;
+  margin-bottom: 5%;
+  height: 14%;
+  position: relative;
+  left: 40%;
+}
+
+.inlaid-button {
+  width: 10%;
+  height: 100%;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
